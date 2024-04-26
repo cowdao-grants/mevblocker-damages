@@ -1,1 +1,14 @@
 config.py
+
+# my local tests
+deprecated/
+
+#environments
+.venv/
+
+#python stuff
+.DS_Store
+__pycache__/
+
+#api keys
+configurations.py
