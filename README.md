@@ -5,7 +5,7 @@
 
 ## The methodology: 
 1. We have a list of transaction hashes that we think have been leaked 
-2. We get the details of this transaction using the Infuria and Etherscan APIs
+2. We get the details of this transaction using the Infura and Etherscan APIs
 3. We simulate the result of each transaction if it would have been top of the block using the Tenderly API
 4. We calculate the difference in dollars for each transaction
 5. We sum the potential loss of each transaction to get the total potential loss in dollars. 
