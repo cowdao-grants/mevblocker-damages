@@ -5,13 +5,13 @@
 
 ## The methodology: 
 1. We have a list of transaction hashes that we think have been leaked 
-2. We get the details of this transaction using the Infura and Etherscan APIs
+2. We get the details of this transaction using the infura and Etherscan APIs
 3. We simulate the result of each transaction if it would have been top of the block using the Tenderly API
 4. We calculate the difference in dollars for each transaction
 5. We sum the potential loss of each transaction to get the total potential loss in dollars. 
 
 ## Usage
-1. Have a csv file with one column called ' user_tx' (space is important) having all the transactions hashes that you think were leeked inside the folder data/input
+1. Have a csv file with one column called 'user_tx' having all the transactions hashes that you think were leeked inside the folder data/input
 2. open the config_example.py file and follow the instructions for the configuration
 3. Intall the requirements in your environment ``` pip install -r requirements.txt ``` 
 4. run the Jupyter Notebook. The output file is called data/results/<INCIDENT_NAME>_final_results.csv - but the Jupyter Notebook is full of interesting information being printed out.
