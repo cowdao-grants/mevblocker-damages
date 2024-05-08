@@ -1,9 +1,0 @@
-{
-  "name": "MEV Blocker Damages",
-  "build": { "dockerfile": "Dockerfile" },
-  "customizations": {
-    "vscode": {
-      "extensions": ["hogashi.vscode-copy-github-permalink"]
-    }
-  }
-}
