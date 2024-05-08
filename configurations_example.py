@@ -13,7 +13,9 @@ todos:
 infura_api_key = 'INSERT-YOUR-INFURA-API-KEY' 
 eth_scan_api_key = 'INSERT-YOUR-ETHERSCAN-API-KEY'
 tenderly_access_token = 'INSERT-YOUR-TENDERLY-ACCESS-TOKEN'
-tenderly_api_url = 'INSERT-YOUR-TENDERLY-API-URL'
+tenderly_account_slug = 'INSERT-YOUR-TENDERLY-USERNAME'
+tenderly_project_slug = 'INSERT-YOUR-TENDERLY-PROJECT-NAME'
 name_of_incident = 'INSERT INCIDENT NAME'
 csv_file_path = 'INSERT YOUR CSV PATH' #example: f'data/input/{name_of_incident}.csv'
 infura_url = f"https://mainnet.infura.io/v3/{infura_api_key}"
+tenderly_api_url = f"https://api.tenderly.co/api/v1/account/${tenderly_account_slug}/project/${tenderly_project_slug}/simulate"
