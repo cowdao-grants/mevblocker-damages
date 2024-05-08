@@ -11,9 +11,9 @@
 5. We sum the potential loss of each transaction to get the total potential loss in dollars. 
 
 ## Usage
-1. Have a csv file with one column called 'user_tx' having all the transactions hashes that you think were leeked inside the folder data/input
-2. open the config_example.py file and follow the instructions for the configuration
-3. Intall the requirements in your environment ``` pip install -r requirements.txt ``` 
+1. Open the provided devcontainer or install the requirements in your environment ``` pip install -r requirements.txt ```
+2. Have a csv file with one column called 'user_tx' having all the transactions hashes that you think were leeked inside the folder data/input
+3. open the config_example.py file and follow the instructions for the configuration
 4. run the Jupyter Notebook. The output file is called data/results/<INCIDENT_NAME>_final_results.csv - but the Jupyter Notebook is full of interesting information being printed out.
 
 ## Final results data catalog
